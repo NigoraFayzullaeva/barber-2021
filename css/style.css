@@ -19,7 +19,7 @@ body {
     padding: 0 15px;
 }
 .header {
-    position: relative;
+    /* position: relative; */
     background:
         linear-gradient(rgba(0, 0, 0, 0.8),
             rgba(0, 0, 0, 0.9)),
@@ -29,7 +29,7 @@ body {
     background-size: cover;
     background-position: center center;
 }
-.header::after{
+/* .header::after{
     content: '';
     position: absolute;
     bottom: -40px;
@@ -40,15 +40,15 @@ body {
     background-image: url(../img/white-grunge.svg);
     background-position: top 2px center;
     background-repeat: repeat-x;
-    background-size: 800px;
-}
+    background-size: 900px;
+} */
 .header-top {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 45px;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 28px;    
 }
 .curl{
     width: 50px;
@@ -148,7 +148,10 @@ body {
 .header-container-button:hover{
     opacity: 1;
 }
-
+/* About Us  */
+.about-us{
+    background: linear-gradient(to bottom, #141515, #020202); 
+}
 /* Media Query */
 @media (max-width: 1145px){
     .menu-logo {
