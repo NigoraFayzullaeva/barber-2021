@@ -23,7 +23,7 @@ body {
         linear-gradient(rgba(0, 0, 0, 0.8),
             rgba(0, 0, 0, 0.9)),
         url('../img/bg.jpg');
-    height: 100vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -123,6 +123,7 @@ body {
 }
 .header-container-button {
     opacity: 0.7;
+    margin-bottom: 20px;
     background-color: transparent;
     background-position: 50% 50%;
     background-repeat: no-repeat;
