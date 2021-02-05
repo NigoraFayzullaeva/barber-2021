@@ -66,15 +66,30 @@ body {
     text-decoration: none;
     font-family: 'Gabriela', serif;
     color: #e7e7e6;
+    opacity: 0.9;
     padding: 16px 24px;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 2.5px;
     text-decoration: none;
+    display: inline-block;
 }
-.menu-link:hover {
-    filter: brightness(150%);
+.menu-link:hover{
+    opacity: 1;
+}
+.menu-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #719274;
+    transition: width .3s;
+}
+
+.menu-link:hover::after {
+    width: 100%;
+    transition: width .3s;
 }
 .menu-logo{
     width: 150px;
@@ -109,7 +124,7 @@ body {
 }
 .header-container-text{
     color: #e2e1df;
-    line-height: 30px;
+    line-height: 36px;
     font-size: 20px;
 }
 .header-container-button {
@@ -202,6 +217,9 @@ body {
         font-size: 17px;
         max-width: 440px;
         margin: auto;
+    }
+    .header-container-text{
+        line-height: 30px;
     }
 }
 @media (max-width: 425px){
