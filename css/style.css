@@ -287,6 +287,24 @@ body {
     .header-container-text {
         font-size: 18px;
     }
+    .about{
+        padding: 80px 0;
+    }
+}
+@media (max-width: 610px){
+    .opening-hour{
+        display: none;
+    }
+    .about-us-img-left,
+    .about-us-img-right{
+        width: 45%;
+    }
+    .about-pic{
+        margin-bottom: 90px;
+    }
+    .about-us-img-right {
+        left: 22px;
+    }
 }
 @media (max-width: 689px){
     .header-container-title {
@@ -338,5 +356,7 @@ body {
         height: 61px;
         width: 270px;
     }
-    
+    .about-us-info p {
+        line-height: 29px;
+    }
 }
