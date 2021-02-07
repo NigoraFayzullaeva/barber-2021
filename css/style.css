@@ -28,6 +28,7 @@ body {
     text-decoration: none;
     font-family: 'Merriweather', serif;
     color: #e3e3e3;
+    background: linear-gradient(to bottom, #000000, #1b1d1d);
 }
 
 .container {
@@ -44,6 +45,7 @@ body {
         url('../img/bg.jpg');
     min-height: 100vh;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center center;
 }
@@ -203,10 +205,6 @@ body {
 }
 
 /* About Us  */
-#about-us {
-    background: linear-gradient(to bottom, #141515, #020202);
-}
-
 .about {
     padding: 120px 0 50px 0;
 }
@@ -262,7 +260,9 @@ p {
 .clock {
     height: 40px;
 }
-
+.about-us-info{
+    text-align: center;
+}
 .about-us-title span {
     color: #a16a38;
     font-family: 'Playfair Display', serif;
@@ -270,6 +270,7 @@ p {
     font-size: 22px;
     position: relative;
     top: -130px;
+    letter-spacing: 2px;
 }
 
 .about-us-title h3 {
@@ -279,17 +280,77 @@ p {
     font-size: 27px;
     position: relative;
     top: -120px;
+    letter-spacing: 1.5px;
 }
 
 .about-us-info p {
     line-height: 34px;
     margin-top: -60px;
+    letter-spacing: 0.9px;
+}
+.about-video{
+    padding-bottom: 100px;
 }
 .about-video video{
     border-radius: 10px;
     display: block; 
     margin: auto;
     opacity: 0.9;
+}
+/* Services */
+.services-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.services-title span{
+    color: #a16a38;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.services-title h3{
+    color: #719274;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 27px;
+    letter-spacing: 1.5px;
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+.services-title p{
+    line-height: 31px;
+    letter-spacing: 0.9px;
+    font-size: 18px;
+    max-width: 900px;
+    margin: auto;
+}
+.services-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.price{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    padding: 25px 0;
+}
+.price h2{
+    font-family: 'Montez', cursive;
+    font-size: 80px;
+    color: #a16a38;
+}
+.price h2 span{
+    color: #719274;
+    font-size: 60px;
+    margin-right: 10px;
+}
+.price h3{
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    font-family: 'Gabriela', serif;
 }
 /* Media Query */
 @media (max-width: 1200px) {
@@ -359,6 +420,9 @@ p {
     .about {
         padding: 80px 0;
     }
+    .price{
+        width: 190px;
+    }
 }
 
 @media (max-width: 610px) {
@@ -418,6 +482,16 @@ p {
     .curl-right {
         display: block;
     }
+    .price{
+        width: 135px;
+        padding: 12px 0;
+    }
+    .price h2{
+        font-size: 60px;
+    }
+    .price h3{
+        font-size: 19px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -447,4 +521,5 @@ p {
     .about-us-info p {
         line-height: 29px;
     }
+    
 }
