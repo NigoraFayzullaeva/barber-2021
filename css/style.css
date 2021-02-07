@@ -346,11 +346,14 @@ p {
     margin-right: 10px;
 }
 .price h3{
-    font-size: 22px;
+    font-size: 26px;
     line-height: 28px;
     font-weight: 400;
     margin-bottom: 8px;
     font-family: 'Gabriela', serif;
+}
+.price p{
+    font-size: 30px;
 }
 /* Media Query */
 @media (max-width: 1200px) {
