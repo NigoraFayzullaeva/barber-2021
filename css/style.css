@@ -337,7 +337,7 @@ p {
 }
 .price h2{
     font-family: 'Montez', cursive;
-    font-size: 80px;
+    font-size: 65px;
     color: #a16a38;
 }
 .price h2 span{
@@ -354,6 +354,19 @@ p {
 }
 .price p{
     font-size: 30px;
+}
+.gallery{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.slick-slide img {
+    display: block;
+    width: 97%;
+    border-radius: 10px;
+}
+.gallery-title{
+    margin-top: 70px;
 }
 /* Media Query */
 @media (max-width: 1200px) {
