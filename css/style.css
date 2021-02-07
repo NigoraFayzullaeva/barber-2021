@@ -208,7 +208,7 @@ body {
 }
 
 .about {
-    padding: 120px 0;
+    padding: 120px 0 50px 0;
 }
 
 .about-us-images {
@@ -219,7 +219,6 @@ body {
 .about-us-img-right {
     opacity: 0.5;
     border-radius: 10px;
-    
 }
 
 .about-us-img-right:hover,
@@ -286,7 +285,12 @@ p {
     line-height: 34px;
     margin-top: -60px;
 }
-
+.about-video video{
+    border-radius: 10px;
+    display: block; 
+    margin: auto;
+    opacity: 0.9;
+}
 /* Media Query */
 @media (max-width: 1200px) {
     .about-us-title span {
@@ -335,6 +339,9 @@ p {
 
     .header-container-subtitle {
         font-size: 60px;
+    }
+    .about-video video{
+        width: 95%;
     }
 }
 
