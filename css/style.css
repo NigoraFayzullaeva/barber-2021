@@ -331,7 +331,7 @@ p {
 }
 .price{
     text-align: center;
-    width: 300px;
+    width: 200px;
     margin: auto;
     padding: 25px 0;
 }
@@ -347,7 +347,7 @@ p {
 }
 .price h3{
     font-size: 22px;
-    line-height: 24px;
+    line-height: 28px;
     font-weight: 400;
     margin-bottom: 8px;
     font-family: 'Gabriela', serif;
