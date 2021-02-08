@@ -387,13 +387,15 @@ p {
     line-height: 28px;
     margin-bottom: 15px;
     opacity: 0.9;
+    font-family: 'Gabriela', serif;
 }
 .phone{
     color: #e3e3e3;
     text-decoration: none;
+    font-family: 'Gabriela', serif;
 }
 .phone:hover{
-    color: #fff;
+    color: #a16a38;
 }
 .social{
     margin-top: 20px;
@@ -403,11 +405,17 @@ p {
     color: #719274;
     padding: 0px 10px 10px 0px;
     line-height: 35px;
+    font-family: 'Gabriela', serif;
+
+}
+.social a:hover{
+    color: #a16a38;
 }
 .timetable p{
     padding-bottom: 10px;
     letter-spacing: 2px;
     opacity: 0.9;
+    font-family: 'Gabriela', serif;
 }
 .contact-blocks{
     margin-bottom: 100px;
@@ -416,6 +424,10 @@ iframe{
     width: 100%;
     height: 300px;
     margin-top: 80px;
+    opacity: 0.5;
+}
+iframe:hover{
+    opacity: 0.7;
 }
 /* Media Query */
 @media (max-width: 1200px) {
