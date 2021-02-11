@@ -721,8 +721,7 @@ iframe:hover {
 }
 
 .form {
-    width: 100%;
-    max-width: 820px;
+    width: 80%;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
@@ -731,19 +730,15 @@ iframe:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-
 .contact-form {
-    /* background-color: #1abc9c; */
     background-color: rgb(113, 146, 116);
     position: relative;
 }
-
 .circle {
-    border-radius: 50%;
+    border-radius: 24px;
     background: linear-gradient(135deg, transparent 20%, rgb(161, 106, 56));
     position: absolute;
 }
-
 .circle.one {
     width: 130px;
     height: 130px;
@@ -758,16 +753,6 @@ iframe:hover {
     right: 30px;
 }
 
-.contact-form:before {
-    content: "";
-    position: absolute;
-    width: 26px;
-    height: 26px;
-    background-color: rgb(161, 106, 56);
-    transform: rotate(45deg);
-    top: 50px;
-    left: -13px;
-}
 
 form {
     padding: 2.3rem 2.2rem;
@@ -907,6 +892,7 @@ textarea.input {
 .text {
     color: #333;
     margin: 1.5rem 0 2rem 0;
+    line-height: 28px;
 }
 
 .information {
@@ -930,7 +916,7 @@ textarea.input {
     /* width: 28px; */
     margin-right: 0.7rem;
     font-size: 28px;
-    color: rgb(113, 146, 116);
+    color: rgb(161, 106, 56);
 }
 
 .social-media {
@@ -950,7 +936,7 @@ textarea.input {
     width: 35px;
     height: 35px;
     border-radius: 5px;
-    background: rgb(113, 146, 116);
+    background: rgb(161, 106, 56);
     color: #fff;
     text-align: center;
     line-height: 35px;
@@ -968,7 +954,7 @@ textarea.input {
     width: 110px;
     height: 100px;
     border: 22px solid rgb(161, 106, 56);
-    border-radius: 50%;
+    border-radius: 24px;
     bottom: -77px;
     right: 50px;
     opacity: 0.3;
@@ -1013,6 +999,9 @@ textarea.input {
 }
 
 @media (max-width: 480px) {
+    .form{
+        width: 100%;
+    }
     .contact-us-main {
         padding: 1.5rem;
     }
